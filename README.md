@@ -18,7 +18,7 @@ La app React se publica en Vercel importando ese repositorio (ver *Despliegue*).
 | Power BI embed | [`README-POWERBI.md`](README-POWERBI.md) |
 | SPFx / Microsoft 365 | [`README-INTEGRACION.md`](README-INTEGRACION.md) |
 | Uso de IA | [`AI_NOTES.md`](AI_NOTES.md) |
-
+| Video de explicación de Youtube | [`https://youtu.be/-6lrUyfVy-w`](https://youtu.be/-6lrUyfVy-w). |
 ---
 
 ## Cómo ejecutar la aplicación
