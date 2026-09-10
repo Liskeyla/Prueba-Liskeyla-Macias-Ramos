@@ -3,7 +3,7 @@
 Aplicación web de analítica de cartera de clientes (datos **sintéticos** de evaluación) + notebook de limpieza + modelo Power BI.
 
 **URL única de todos los entregables:** [https://github.com/Liskeyla/Prueba-Liskeyla-Macias-Ramos](https://github.com/Liskeyla/Prueba-Liskeyla-Macias-Ramos)
-
+**URL Publica del desarrollo web de vercel:** https://prueba-liskeyla-macias-ramos.vercel.app/ 
 La app React se publica en Vercel importando ese repositorio (ver *Despliegue*).
 
 | Entregable | Ruta |
