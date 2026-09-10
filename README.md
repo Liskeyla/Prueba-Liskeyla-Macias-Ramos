@@ -12,7 +12,7 @@ La app React se publica en Vercel importando ese repositorio (ver *Despliegue*).
 | Vista por cliente (app) | [`data/dataset_clean.json`](data/dataset_clean.json), [`data/meta.json`](data/meta.json) |
 | Notebook de limpieza y análisis | [`analysis/analysis.ipynb`](analysis/analysis.ipynb) |
 | Dashboard Power BI | [`powerbi/dashboard.pbix`](powerbi/dashboard.pbix) |
-| Aplicación React | [[`app/`](app/)](https://prueba-liskeyla-macias-ramos.vercel.app/) |
+| Aplicación React | [(https://prueba-liskeyla-macias-ramos.vercel.app/) |
 | Limpieza: supuestos y segmentos | [`README-DATOS.md`](README-DATOS.md) |
 | Dashboard: indicadores y storytelling | [`README-DASHBOARD.md`](README-DASHBOARD.md) |
 | Power BI embed | [`README-POWERBI.md`](README-POWERBI.md) |
