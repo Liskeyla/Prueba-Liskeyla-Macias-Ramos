@@ -12,7 +12,7 @@ Herramientas de IA usadas en este entregable y para qué.
 
 - La **limpieza y segmentación** no se reescribieron con IA como script nuevo.
 - El análisis original está en `analysis/analysis.ipynb` (notebook enviado: *Prueba_Liskeyla_Macias*).
-- La app web consume una vista agregada por cliente (`app/public/data/clientes.json` y `meta.json`) derivada de `data/dataset_clean.csv` para no cargar 22.455 filas transaccionales en el navegador.
+- La app web consume una vista agregada por cliente (`app/public/data/clientes.json` y `meta.json`) para no cargar las filas transaccionales del Excel en el navegador.
 
 ## Power BI
 

@@ -18,7 +18,7 @@ El modelo Power BI está en [`powerbi/dashboard.pbix`](powerbi/dashboard.pbix). 
 
 ## 2. Estructura de la información
 
-### `Base_Limpia` (`data/dataset_clean.csv`)
+### `Base_Limpia` (`data/dataset_clean.xlsx`)
 
 Clientes, productos, saldos, cupos, vencimientos y consumos: `cliente_id`, `producto`, `saldo_producto`, `cupo_credito`, `monto_consumo`, `categoria_consumo`, `canal`, `fecha_movimiento` / `fecha_consumo`, `fecha_vencimiento`, `estado_producto`.
 

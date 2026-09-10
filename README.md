@@ -2,13 +2,13 @@
 
 Aplicación web de analítica de cartera de clientes (datos **sintéticos** de evaluación) + notebook de limpieza + modelo Power BI.
 
-**Repositorio:** [github.com/Liskeyla/Prueba-Liskeyla-Macias-Ramos](https://github.com/Liskeyla/Prueba-Liskeyla-Macias-Ramos)
+**URL única de todos los entregables:** [https://github.com/Liskeyla/Prueba-Liskeyla-Macias-Ramos](https://github.com/Liskeyla/Prueba-Liskeyla-Macias-Ramos)
 
-Una sola URL con todos los entregables: este repositorio. La app React se despliega en Vercel (ver sección *Despliegue*).
+La app React se publica en Vercel importando ese repositorio (ver *Despliegue*).
 
 | Entregable | Ruta |
 |---|---|
-| Dataset limpio | [`data/dataset_clean.csv`](data/dataset_clean.csv) |
+| Dataset limpio | [`data/dataset_clean.xlsx`](data/dataset_clean.xlsx) |
 | Vista por cliente (app) | [`data/dataset_clean.json`](data/dataset_clean.json), [`data/meta.json`](data/meta.json) |
 | Notebook de limpieza y análisis | [`analysis/analysis.ipynb`](analysis/analysis.ipynb) |
 | Dashboard Power BI | [`powerbi/dashboard.pbix`](powerbi/dashboard.pbix) |
@@ -68,13 +68,16 @@ Portabilidad SPFx: ver [README-INTEGRACION.md](README-INTEGRACION.md).
 
 ## Despliegue en Vercel
 
-1. Importa este repositorio en [vercel.com](https://vercel.com).
-2. **Root Directory:** deja la raíz del repo (el `vercel.json` instala y construye `app/`).
-   Alternativa: Root Directory = `app`.
-3. Framework preset: Vite.
-4. Variables Power BI (opcionales): `VITE_POWERBI_*` — ver [README-POWERBI.md](README-POWERBI.md).
+1. Entra a [vercel.com/new](https://vercel.com/new) e inicia sesión (GitHub).
+2. Importa **Liskeyla/Prueba-Liskeyla-Macias-Ramos**.
+3. **Root Directory:** `app` (preset Vite).  
+   Si dejas la raíz del repo, el `vercel.json` de la raíz instala y construye `app/`.
+4. Deploy. Queda una URL permanente tipo `https://prueba-liskeyla-macias-ramos.vercel.app`.
+5. Variables Power BI (opcionales): `VITE_POWERBI_*` — ver [README-POWERBI.md](README-POWERBI.md).
 
 Sin esas variables la ruta `/powerbi` muestra el estado de configuración pendiente y las capturas del reporte.
+
+En esta máquina no había sesión de Vercel CLI; el bonus de URL pública se completa al importar el repo (un clic). El repositorio GitHub ya contiene código, notebook, PBIX y READMEs.
 
 ---
 
@@ -82,7 +85,7 @@ Sin esas variables la ruta `/powerbi` muestra el estado de configuración pendie
 
 ```
 /
-  data/          dataset_clean.csv | dataset_clean.json | meta.json
+  data/          dataset_clean.xlsx | dataset_clean.json | meta.json
   analysis/      analysis.ipynb
   powerbi/       dashboard.pbix
   app/           proyecto React (Vite)

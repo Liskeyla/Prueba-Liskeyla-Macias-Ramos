@@ -172,7 +172,7 @@ Clientes sin consumo aplicable (`monto_consumo` no > 0). Los vacíos de `segment
 
 ## 11. Resultado final
 
-Base limpia en `data/dataset_clean.csv` (22.455 movimientos) y vista por cliente para la app (`data/dataset_clean.json`).
+Base limpia en `data/dataset_clean.xlsx` (la misma que alimenta el modelo de Power BI) y vista por cliente para la app (`data/dataset_clean.json`).
 
 Indicadores habilitados: clientes únicos, saldo total y promedio, consumo total y promedio, transacciones, ticket, multiproducto, utilización TC, consumo por canal/categoría, próximos vencimientos, segmentos.
 
