@@ -1,0 +1,41 @@
+.shell {
+  min-height: 100vh;
+}
+
+.backdrop {
+  position: fixed;
+  inset: 0;
+  background: rgba(18, 22, 28, 0.4);
+  z-index: 25;
+}
+
+.col {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.contenido {
+  padding: var(--e4);
+  flex: 1;
+}
+
+@media (min-width: 768px) {
+  .col {
+    margin-left: 64px;
+  }
+
+  .backdrop {
+    display: none;
+  }
+}
+
+@media (min-width: 1280px) {
+  .col {
+    margin-left: 240px;
+  }
+
+  .contenido {
+    padding: var(--e5) var(--e6);
+  }
+}

@@ -1,0 +1,21 @@
+# Dependencias y build
+app/node_modules/
+app/dist/
+**/__pycache__/
+.venv/
+.env
+.env.local
+app/.env
+.vercel
+*.log
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# OneDrive / sistema
+desktop.ini
+~$*

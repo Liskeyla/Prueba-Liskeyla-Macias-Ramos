@@ -1,0 +1,48 @@
+.wrap {
+  width: 100%;
+  overflow-x: auto;
+}
+
+.tabla {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 14px;
+}
+
+.th,
+.td {
+  padding: var(--e3) var(--e3);
+  border-bottom: 1px solid var(--borde);
+  text-align: left;
+  vertical-align: middle;
+}
+
+.th {
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--tinta-2);
+  background: var(--superficie);
+  white-space: nowrap;
+}
+
+.num {
+  text-align: right;
+  font-variant-numeric: tabular-nums;
+}
+
+.sortable {
+  cursor: pointer;
+  user-select: none;
+}
+
+.sortable:hover {
+  color: var(--azul-600);
+}
+
+.fila:hover {
+  background: var(--azul-50);
+}
+
+.filaClic {
+  cursor: pointer;
+}

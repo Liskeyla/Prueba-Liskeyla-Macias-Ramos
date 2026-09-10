@@ -1,0 +1,22 @@
+.caja {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: var(--e3);
+  padding: var(--e7) var(--e5);
+}
+
+.icono {
+  color: var(--peligro);
+}
+
+.titulo {
+  font-size: 15px;
+}
+
+.texto {
+  font-size: 14px;
+  color: var(--tinta-2);
+  max-width: 400px;
+}

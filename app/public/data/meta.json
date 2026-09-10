@@ -1,0 +1,161 @@
+{
+  "fechaCorte": "2026-08-31",
+  "meses": [
+    "2025-01",
+    "2025-02",
+    "2025-03",
+    "2025-04",
+    "2025-05",
+    "2025-06",
+    "2025-07",
+    "2025-08",
+    "2025-09",
+    "2025-10",
+    "2025-11",
+    "2025-12",
+    "2026-01",
+    "2026-02",
+    "2026-03",
+    "2026-04",
+    "2026-05",
+    "2026-06",
+    "2026-07",
+    "2026-08"
+  ],
+  "ciudades": [
+    "Ambato",
+    "Cuenca",
+    "Guayaquil",
+    "Loja",
+    "Manta",
+    "Quito"
+  ],
+  "productos": [
+    "Crédito Hipotecario",
+    "Crédito Vehicular",
+    "Crédito de Consumo",
+    "Cuenta Corriente",
+    "Cuenta de Ahorros",
+    "Tarjeta de Crédito"
+  ],
+  "categorias": [
+    "EDUCATION",
+    "ENTERTAINMENT",
+    "FOOD",
+    "FUEL",
+    "HEALTH",
+    "OTHERS",
+    "STREAMING",
+    "SUPERMARKET",
+    "TECHNOLOGY",
+    "TRAVEL"
+  ],
+  "segmentosComerciales": [
+    "MASS",
+    "PREMIUM",
+    "AFFLUENT",
+    "JOVEN",
+    "PYME"
+  ],
+  "canales": [
+    "POS",
+    "App",
+    "Web",
+    "Branch",
+    "ATM"
+  ],
+  "categoriaAGrupoLover": {
+    "TRAVEL": "Travel Lovers",
+    "STREAMING": "Streaming Lovers",
+    "ENTERTAINMENT": "Streaming Lovers",
+    "FOOD": "Food Lovers",
+    "SUPERMARKET": "Food Lovers",
+    "TECHNOLOGY": "Tech Lovers",
+    "HEALTH": "Wellness Lovers",
+    "EDUCATION": "Wellness Lovers"
+  },
+  "tipoDeProducto": {
+    "Cuenta de Ahorros": "Captación",
+    "Cuenta Corriente": "Captación",
+    "Crédito de Consumo": "Colocación",
+    "Crédito Vehicular": "Colocación",
+    "Crédito Hipotecario": "Colocación",
+    "Tarjeta de Crédito": "Tarjeta"
+  },
+  "segmentos": [
+    {
+      "nombre": "Food Lovers",
+      "tipo": "Conductual",
+      "categorias": "FOOD + SUPERMARKET",
+      "criterio": "Mayor afinidad de consumo en alimentación y supermercado.",
+      "queObservamos": "Concentran el mayor volumen de clientes con consumo y el mayor gasto de la cartera.",
+      "oportunidad": "Fidelizar con cashback y alianzas de supermercado para subir recurrencia.",
+      "accion": "Campaña de cashback en FOOD/SUPERMARKET y débito automático de compras frecuentes.",
+      "color": "#2a78d6"
+    },
+    {
+      "nombre": "Streaming Lovers",
+      "tipo": "Conductual",
+      "categorias": "STREAMING + ENTERTAINMENT",
+      "criterio": "Consumo recurrente en entretenimiento digital.",
+      "queObservamos": "Ticket estable y alta frecuencia de cobros pequeños.",
+      "oportunidad": "Empaquetar suscripciones y beneficios de entretenimiento.",
+      "accion": "Ofrecer débito automático y alianzas con plataformas de streaming.",
+      "color": "#eb6834"
+    },
+    {
+      "nombre": "Travel Lovers",
+      "tipo": "Conductual",
+      "categorias": "TRAVEL",
+      "criterio": "Concentración de gasto en viajes.",
+      "queObservamos": "Consumo más estacional y ticket más alto por transacción.",
+      "oportunidad": "Venta de millas, seguros de viaje y beneficios internacionales.",
+      "accion": "Activar programa de millas y cupo temporal en temporadas altas.",
+      "color": "#1baf7a"
+    },
+    {
+      "nombre": "Wellness Lovers",
+      "tipo": "Conductual",
+      "categorias": "HEALTH + EDUCATION",
+      "criterio": "Afinidad con salud y educación.",
+      "queObservamos": "Relación con gastos planificables y financiamiento de mediano plazo.",
+      "oportunidad": "Crédito educativo, salud y convenios de bienestar.",
+      "accion": "Ofertar planes de financiamiento en HEALTH/EDUCATION.",
+      "color": "#eda100"
+    },
+    {
+      "nombre": "Tech Lovers",
+      "tipo": "Conductual",
+      "categorias": "TECHNOLOGY",
+      "criterio": "Concentración de consumo en tecnología.",
+      "queObservamos": "Compras de mayor ticket y menor frecuencia.",
+      "oportunidad": "Diferidos y aumento de cupo en fechas comerciales.",
+      "accion": "Campañas de cuotas sin intereses en TECHNOLOGY.",
+      "color": "#4a3aa7"
+    },
+    {
+      "nombre": "Solo Ahorro / Sin consumo",
+      "tipo": "Oportunidad",
+      "categorias": "Sin consumo aplicable",
+      "criterio": "Clientes con productos pero sin consumo categorizable mayor a cero.",
+      "queObservamos": "Segundo grupo por saldo y 0 % del consumo. Productos pasivos sin uso transaccional.",
+      "oportunidad": "Activación de tarjeta o producto transaccional sobre saldo ya validado.",
+      "accion": "Campaña de activación de débito/tarjeta para clientes solo ahorro.",
+      "color": "#7b8794"
+    }
+  ],
+  "kpisDeControl": {
+    "clientesUnicos": 2200,
+    "saldoTotal": 77356909.02,
+    "saldoPromedio": 35162.23,
+    "consumoTotal": 1871211.49,
+    "consumoPromedio": 850.55,
+    "transacciones": 14942,
+    "ticketPromedio": 125.23,
+    "clientesMultiproducto": 1787,
+    "pctMultiproducto": 81.2,
+    "clientesSinConsumo": 545,
+    "pctSinConsumo": 24.8,
+    "utilizacionTC": 32.83
+  }
+}

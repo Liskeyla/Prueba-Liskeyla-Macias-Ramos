@@ -1,0 +1,57 @@
+.boton {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--e2);
+  min-height: 44px;
+  padding: 0 var(--e4);
+  border-radius: var(--r-sm);
+  border: 1px solid transparent;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 500;
+  background: transparent;
+}
+
+.boton:disabled {
+  opacity: 0.55;
+  cursor: not-allowed;
+}
+
+.primario {
+  background: var(--azul-600);
+  color: var(--superficie);
+}
+
+.primario:hover:not(:disabled) {
+  background: var(--azul-700);
+}
+
+.secundario {
+  background: var(--superficie);
+  color: var(--tinta);
+  border-color: var(--borde);
+}
+
+.secundario:hover:not(:disabled) {
+  background: var(--azul-50);
+}
+
+.fantasma {
+  color: var(--tinta-2);
+}
+
+.fantasma:hover:not(:disabled) {
+  background: var(--azul-50);
+  color: var(--tinta);
+}
+
+.peligro {
+  background: var(--peligro);
+  color: var(--superficie);
+}
+
+.icono {
+  min-width: 44px;
+  padding: 0;
+}

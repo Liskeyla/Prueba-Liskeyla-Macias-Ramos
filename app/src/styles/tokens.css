@@ -1,0 +1,12 @@
+:root {
+  --azul-900:#12233d; --azul-700:#1b3a63; --azul-600:#2a78d6; --azul-50:#eef4fb;
+  --fondo:#eef1f5; --superficie:#ffffff; --borde:#dfe4ea;
+  --tinta:#12161c; --tinta-2:#4a5464; --tinta-3:#7b8794;
+  --exito:#1baf7a; --alerta:#eb6834; --peligro:#e34948;
+  --s1:#2a78d6; --s2:#eb6834; --s3:#1baf7a; --s4:#eda100; --s5:#4a3aa7; --s6:#7b8794;
+  --e1:4px; --e2:8px; --e3:12px; --e4:16px; --e5:24px; --e6:32px; --e7:48px;
+  --r-sm:6px; --r-md:10px; --r-lg:14px;
+  --sombra-1:0 1px 2px rgba(18,22,28,.06);
+  --sombra-2:0 4px 16px rgba(18,22,28,.08);
+  --fuente:"Inter","Segoe UI",system-ui,sans-serif;
+}

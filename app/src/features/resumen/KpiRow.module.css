@@ -1,0 +1,36 @@
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: var(--e3);
+}
+
+.etiqueta {
+  font-size: 12px;
+  color: var(--tinta-2);
+}
+
+.valor {
+  font-size: 30px;
+  font-weight: 650;
+  letter-spacing: -0.03em;
+  font-variant-numeric: tabular-nums;
+  line-height: 1.15;
+  margin: var(--e2) 0 var(--e1);
+}
+
+.contexto {
+  font-size: 12px;
+  color: var(--tinta-3);
+}
+
+.nota {
+  grid-column: 1 / -1;
+  font-size: 12px;
+  color: var(--alerta);
+}
+
+@media (min-width: 1280px) {
+  .grid {
+    grid-template-columns: repeat(5, minmax(0, 1fr));
+  }
+}

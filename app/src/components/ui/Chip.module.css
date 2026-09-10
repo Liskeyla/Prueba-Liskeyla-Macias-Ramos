@@ -1,0 +1,30 @@
+.chip {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--e1);
+  min-height: 32px;
+  padding: 0 var(--e2) 0 var(--e3);
+  border-radius: 999px;
+  background: var(--azul-50);
+  color: var(--azul-700);
+  font-size: 12px;
+  border: 1px solid var(--borde);
+}
+
+.quitar {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 24px;
+  height: 24px;
+  border: 0;
+  background: transparent;
+  color: var(--tinta-2);
+  cursor: pointer;
+  border-radius: 999px;
+}
+
+.quitar:hover {
+  color: var(--tinta);
+  background: var(--superficie);
+}

@@ -1,0 +1,20 @@
+.tarjeta {
+  background: var(--superficie);
+  border: 1px solid var(--borde);
+  border-radius: var(--r-lg);
+  box-shadow: var(--sombra-1);
+  padding: var(--e5);
+}
+
+.clicable {
+  cursor: pointer;
+  text-align: left;
+  width: 100%;
+  font: inherit;
+  color: inherit;
+}
+
+.clicable:hover {
+  box-shadow: var(--sombra-2);
+  border-color: var(--azul-600);
+}

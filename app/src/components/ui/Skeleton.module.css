@@ -1,0 +1,25 @@
+.bloque {
+  background: linear-gradient(
+    90deg,
+    var(--borde) 0%,
+    var(--azul-50) 50%,
+    var(--borde) 100%
+  );
+  background-size: 200% 100%;
+  animation: pulso 1.2s ease-in-out infinite;
+  border-radius: var(--r-md);
+}
+
+.fila {
+  display: grid;
+  gap: var(--e3);
+}
+
+@keyframes pulso {
+  0% {
+    background-position: 100% 0;
+  }
+  100% {
+    background-position: -100% 0;
+  }
+}
